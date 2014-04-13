@@ -1,0 +1,817 @@
+THelloWorld
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/Info.plist /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/HelloWorld-Info.plist
+cPhaseScriptExecution Copy\ www\ directory /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.sh
+cCpResource HelloWorld/Resources/icons/icon-76.png build/emulator/HelloWorld.app/icon-76.png
+cCpResource HelloWorld/Resources/icons/icon-40@2x.png build/emulator/HelloWorld.app/icon-40@2x.png
+cCpResource HelloWorld/Resources/icons/icon-72.png build/emulator/HelloWorld.app/icon-72.png
+cCpResource HelloWorld/Resources/icons/icon.png build/emulator/HelloWorld.app/icon.png
+cCpResource HelloWorld/Resources/icons/icon@2x.png build/emulator/HelloWorld.app/icon@2x.png
+cCopyStringsFile /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/en.lproj/Localizable.strings HelloWorld/Resources/en.lproj/Localizable.strings
+cCompileXIB /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/MainViewController.xib
+cCpResource HelloWorld/Resources/icons/icon-50.png build/emulator/HelloWorld.app/icon-50.png
+cCpResource HelloWorld/Resources/icons/icon-60@2x.png build/emulator/HelloWorld.app/icon-60@2x.png
+cCopyStringsFile /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/de.lproj/Localizable.strings HelloWorld/Resources/de.lproj/Localizable.strings
+cCpResource HelloWorld/Resources/icons/icon-small.png build/emulator/HelloWorld.app/icon-small.png
+cCpResource HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png
+cCpResource HelloWorld/Resources/splash/Default-Landscape~ipad.png build/emulator/HelloWorld.app/Default-Landscape~ipad.png
+cCpResource HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png
+cCpResource HelloWorld/Resources/icons/icon-small@2x.png build/emulator/HelloWorld.app/icon-small@2x.png
+cCpResource HelloWorld/Resources/splash/Default-Portrait~ipad.png build/emulator/HelloWorld.app/Default-Portrait~ipad.png
+cCpResource HelloWorld/Resources/icons/icon-40.png build/emulator/HelloWorld.app/icon-40.png
+cCpResource HelloWorld/Resources/splash/Default@2x~iphone.png build/emulator/HelloWorld.app/Default@2x~iphone.png
+cCpResource HelloWorld/Resources/icons/icon-60.png build/emulator/HelloWorld.app/icon-60.png
+cCpResource HelloWorld/Resources/splash/Default~iphone.png build/emulator/HelloWorld.app/Default~iphone.png
+cCpResource HelloWorld/Resources/splash/Default-568h@2x~iphone.png build/emulator/HelloWorld.app/Default-568h@2x~iphone.png
+cCpResource HelloWorld/Resources/icons/icon-50@2x.png build/emulator/HelloWorld.app/icon-50@2x.png
+cCpResource HelloWorld/Resources/icons/icon-76@2x.png build/emulator/HelloWorld.app/icon-76@2x.png
+cCpResource HelloWorld/Resources/icons/icon-72@2x.png build/emulator/HelloWorld.app/icon-72@2x.png
+cProcessPCH /var/folders/m2/ls2prw4j3qb7j6f4jmyj1rkr0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-csyjqtuqobhpevbqdjrfnqeybevj/HelloWorld-Prefix.pch.pch HelloWorld/HelloWorld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/HelloWorld normal i386
+cGenerateDSYMFile /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app.dSYM /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/HelloWorld
+cTouch /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000533E149D00000000000003B4
+t1396577437
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000533E14A5000000000000019E
+t1396577445
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000533E14A60000000000059340
+t1396577446
+s365376
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000533E14A80000000000446820
+t1396577448
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000533E14A700000000000F1A80
+t1396577447
+s989824
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000533E14AA00000000001BE790
+t1396577450
+s1828752
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/AppDelegate.m
+c00000000534B03DB00000000000013AB
+t1397425115
+s5035
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/MainViewController.m
+c00000000534B03DB000000000000126B
+t1397425115
+s4715
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/MainViewController.xib
+c00000000534B03DB0000000000001759
+t1397425115
+s5977
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/HelloWorld-Info.plist
+c00000000534B03DC0000000000000A13
+t1397425116
+s2579
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/HelloWorld-Prefix.pch
+c00000000534B03DB00000000000003C5
+t1397425115
+s965
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/de.lproj/Localizable.strings
+c00000000534B03DB00000000000004C0
+t1397425115
+s1216
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/en.lproj/Localizable.strings
+c00000000534B03DB00000000000004AB
+t1397425115
+s1195
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon-40.png
+c00000000534B03DB0000000000000FF2
+t1397425115
+s4082
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon-40@2x.png
+c00000000534B03DB0000000000001CF3
+t1397425115
+s7411
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon-50.png
+c00000000534B03DB000000000000130A
+t1397425115
+s4874
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon-50@2x.png
+c00000000534B03DB000000000000258B
+t1397425115
+s9611
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon-60.png
+c00000000534B03DB00000000000016B3
+t1397425115
+s5811
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon-60@2x.png
+c00000000534B03DB0000000000002E94
+t1397425115
+s11924
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon-72.png
+c00000000534B03DB0000000000001350
+t1397425115
+s4944
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon-72@2x.png
+c00000000534B03DB0000000000002DBA
+t1397425115
+s11706
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon-76.png
+c00000000534B03DB0000000000001B71
+t1397425115
+s7025
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon-76@2x.png
+c00000000534B03DB0000000000003B9E
+t1397425115
+s15262
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon-small.png
+c00000000534B03DB0000000000000CDE
+t1397425115
+s3294
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon-small@2x.png
+c00000000534B03DB00000000000015E8
+t1397425115
+s5608
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon.png
+c00000000534B03DB0000000000000F3E
+t1397425115
+s3902
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon@2x.png
+c00000000534B03DB0000000000001EBD
+t1397425115
+s7869
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/splash/Default-568h@2x~iphone.png
+c00000000534B03DB00000000000085B1
+t1397425115
+s34225
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png
+c00000000534B03DB0000000000033D0A
+t1397425115
+s212234
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/splash/Default-Landscape~ipad.png
+c00000000534B03DB00000000000166A2
+t1397425115
+s91810
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png
+c00000000534B03DB0000000000033F7C
+t1397425115
+s212860
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/splash/Default-Portrait~ipad.png
+c00000000534B03DB0000000000016641
+t1397425115
+s91713
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/splash/Default@2x~iphone.png
+c00000000534B03DB0000000000007323
+t1397425115
+s29475
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/splash/Default~iphone.png
+c00000000534B03DB000000000000289A
+t1397425115
+s10394
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/main.m
+c00000000534B03DB000000000000045C
+t1397425115
+s1116
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o
+t1397425123
+s74028
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/HelloWorld.LinkFileList
+c00000000534B03DF00000000000001E9
+t1397425119
+s489
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o
+t1397425123
+s50840
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o
+t1397425123
+s3020
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.sh
+c00000000534B03DF000000000000002D
+t1397425119
+s45
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app
+t1397425123
+s1020
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app.dSYM
+t2
+s0
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/Default-568h@2x~iphone.png
+t1397425119
+s34225
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png
+t1397425119
+s212234
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/Default-Landscape~ipad.png
+t1397425119
+s91810
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png
+t1397425119
+s212860
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/Default-Portrait~ipad.png
+t1397425119
+s91713
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/Default@2x~iphone.png
+t1397425119
+s29475
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/Default~iphone.png
+t1397425119
+s10394
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/HelloWorld
+t1397425123
+s285524
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/Info.plist
+t1397425119
+s1287
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/MainViewController.nib
+t1397425122
+s1332
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/PkgInfo
+t2
+s0
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/de.lproj/Localizable.strings
+t1397425119
+s280
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/en.lproj/Localizable.strings
+t1397425119
+s166
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon-40.png
+t1397425119
+s4082
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon-40@2x.png
+t1397425119
+s7411
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon-50.png
+t1397425119
+s4874
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon-50@2x.png
+t1397425119
+s9611
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon-60.png
+t1397425119
+s5811
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon-60@2x.png
+t1397425119
+s11924
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon-72.png
+t1397425119
+s4944
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon-72@2x.png
+t1397425119
+s11706
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon-76.png
+t1397425119
+s7025
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon-76@2x.png
+t1397425119
+s15262
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon-small.png
+t1397425119
+s3294
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon-small@2x.png
+t1397425119
+s5608
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon.png
+t1397425119
+s3902
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon@2x.png
+t1397425119
+s7869
+
+N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/libCordova.a
+c00000000534B03DF00000000000D2DF0
+t1397425119
+s863728
+
+N/var/folders/m2/ls2prw4j3qb7j6f4jmyj1rkr0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-csyjqtuqobhpevbqdjrfnqeybevj/HelloWorld-Prefix.pch.pch
+t1397425123
+s5374272
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesfc8b405f3bfbb841^cfba425f3bfbb841^---0#1#1#--18"Check dependencies36"A1AAF49C-1CA4-48B9-8CCA-7B5F961BD69C-
+
+CCompileC build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419117923.210246
+e419117923.293281
+r1
+xCompileC
+xbuild/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o
+x/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/AppDelegate.m
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/AppDelegate.h
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/MainViewController.h
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/AppDelegate.m221"[1mCompileC[0m build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o [1mHelloWorld/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler632536633bfbb841^db144b633bfbb841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/AppDelegate.m0000000000000000^4628"[1mCompileC[0m build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o [1mHelloWorld/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=238 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/usr/local/lib/include -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/UninstalledProducts/include -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources/i386 -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources -F/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator -include /var/folders/m2/ls2prw4j3qb7j6f4jmyj1rkr0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-csyjqtuqobhpevbqdjrfnqeybevj/HelloWorld-Prefix.pch -MMD -MT dependencies -MF /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.dia -c /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/AppDelegate.m -o /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o36"D810E488-4C4B-4921-BC8E-D64387D05798-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCompileC build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419117923.210844
+e419117923.275789
+r1
+xCompileC
+xbuild/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o
+x/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/MainViewController.m
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/MainViewController.h
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/MainViewController.m235"[1mCompileC[0m build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o [1mHelloWorld/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera43536633bfbb841^6b9b46633bfbb841^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/MainViewController.m0000000000000000^4670"[1mCompileC[0m build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o [1mHelloWorld/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=238 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/usr/local/lib/include -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/UninstalledProducts/include -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources/i386 -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources -F/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator -include /var/folders/m2/ls2prw4j3qb7j6f4jmyj1rkr0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-csyjqtuqobhpevbqdjrfnqeybevj/HelloWorld-Prefix.pch -MMD -MT dependencies -MF /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.dia -c /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/MainViewController.m -o /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o36"16DEFF6A-99CE-465B-A857-664101FA7C84-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCompileC build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419117923.209769
+e419117923.235248
+r1
+xCompileC
+xbuild/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o
+x/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/main.m199"[1mCompileC[0m build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o [1mHelloWorld/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler03ee35633bfbb841^9b393c633bfbb841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/main.m0000000000000000^4570"[1mCompileC[0m build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o [1mHelloWorld/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=238 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/usr/local/lib/include -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/UninstalledProducts/include -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources/i386 -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources -F/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator -include /var/folders/m2/ls2prw4j3qb7j6f4jmyj1rkr0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-csyjqtuqobhpevbqdjrfnqeybevj/HelloWorld-Prefix.pch -MMD -MT dependencies -MF /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.dia -c /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/main.m -o /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o36"F8A73393-1445-4615-80A1-26A60D74E709-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCompileXIB /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/MainViewController.xib
+s419117919.520441
+e419117922.865012
+r1
+xCompileXIB
+x/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/MainViewController.xib
+o2014-04-13 16:38:42.231 Interface Builder Cocoa Touch Tool[57027:303] CFPreferences: user home directory at file:///Users/jasonbucki/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compiling /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/MainViewController.xib68"[1mCompileXIB[0m [1mHelloWorld/Classes/MainViewController.xib[0m57cf855f3bfbb841^1572dd623bfbb841^-235"2014-04-13 16:38:42.231 Interface Builder Cocoa Touch Tool[57027:303] CFPreferences: user home directory at file:///Users/jasonbucki/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@115"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/MainViewController.xib0000000000000000^1464"[1mCompileXIB[0m [1mHelloWorld/Classes/MainViewController.xib[0m    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/MainViewController.nib /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Classes/MainViewController.xib36"D71D45AB-DEFF-482A-AF3A-4FC916B14CED-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCopyStringsFile /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/de.lproj/Localizable.strings HelloWorld/Resources/de.lproj/Localizable.strings
+s419117919.523654
+e419117919.529258
+r1
+xCopyStringsFile
+x/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/de.lproj/Localizable.strings
+xHelloWorld/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy HelloWorld/Resources/de.lproj/Localizable.strings132"[1mCopyStringsFile[0m build/emulator/HelloWorld.app/de.lproj/Localizable.strings HelloWorld/Resources/de.lproj/Localizable.stringsd635865f3bfbb841^bb97875f3bfbb841^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/de.lproj/Localizable.strings0000000000000000^1243"[1mCopyStringsFile[0m build/emulator/HelloWorld.app/de.lproj/Localizable.strings HelloWorld/Resources/de.lproj/Localizable.strings    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/de.lproj -- HelloWorld/Resources/de.lproj/Localizable.strings36"D555B2F8-8B88-424F-9C47-B70FB3EC72DC-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCopyStringsFile /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/en.lproj/Localizable.strings HelloWorld/Resources/en.lproj/Localizable.strings
+s419117919.520053
+e419117919.525265
+r1
+xCopyStringsFile
+x/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/en.lproj/Localizable.strings
+xHelloWorld/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy HelloWorld/Resources/en.lproj/Localizable.strings132"[1mCopyStringsFile[0m build/emulator/HelloWorld.app/en.lproj/Localizable.strings HelloWorld/Resources/en.lproj/Localizable.stringse770855f3bfbb841^8c9f865f3bfbb841^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/en.lproj/Localizable.strings0000000000000000^1243"[1mCopyStringsFile[0m build/emulator/HelloWorld.app/en.lproj/Localizable.strings HelloWorld/Resources/en.lproj/Localizable.strings    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/en.lproj -- HelloWorld/Resources/en.lproj/Localizable.strings36"B34FE6AA-3A5F-4BCB-A164-364955C5D54E-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCpResource HelloWorld/Resources/icons/icon-40.png build/emulator/HelloWorld.app/icon-40.png
+s419117919.533876
+e419117919.535835
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-40.png
+xbuild/emulator/HelloWorld.app/icon-40.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/HelloWorld.app/icon-40.png99"[1mCpResource[0m HelloWorld/Resources/icons/icon-40.png build/emulator/HelloWorld.app/icon-40.pngf2d3885f3bfbb841^c233895f3bfbb841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon-40.png00345454ddffdf42^1276"[1mCpResource[0m HelloWorld/Resources/icons/icon-40.png build/emulator/HelloWorld.app/icon-40.png    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon-40.png /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app36"35A2ED0D-7D59-438D-8295-880FA5D436AB-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCpResource HelloWorld/Resources/icons/icon-40@2x.png build/emulator/HelloWorld.app/icon-40@2x.png
+s419117919.517422
+e419117919.519374
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-40@2x.png
+xbuild/emulator/HelloWorld.app/icon-40@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/HelloWorld.app/icon-40@2x.png105"[1mCpResource[0m HelloWorld/Resources/icons/icon-40@2x.png build/emulator/HelloWorld.app/icon-40@2x.pngae9d845f3bfbb841^93fc845f3bfbb841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon-40@2x.png00345454ddffdf42^1285"[1mCpResource[0m HelloWorld/Resources/icons/icon-40@2x.png build/emulator/HelloWorld.app/icon-40@2x.png    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon-40@2x.png /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app36"70502307-4AA9-4167-9715-111A2ECD14A1-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCpResource HelloWorld/Resources/icons/icon-50.png build/emulator/HelloWorld.app/icon-50.png
+s419117919.520828
+e419117919.522950
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-50.png
+xbuild/emulator/HelloWorld.app/icon-50.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/HelloWorld.app/icon-50.png99"[1mCpResource[0m HelloWorld/Resources/icons/icon-50.png build/emulator/HelloWorld.app/icon-50.png1c78855f3bfbb841^bd18865f3bfbb841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon-50.png00345454ddffdf42^1276"[1mCpResource[0m HelloWorld/Resources/icons/icon-50.png build/emulator/HelloWorld.app/icon-50.png    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon-50.png /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app36"7D237E2B-BCAA-43E5-9608-F879B6FCF3EC-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCpResource HelloWorld/Resources/icons/icon-50@2x.png build/emulator/HelloWorld.app/icon-50@2x.png
+s419117919.537860
+e419117919.540159
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-50@2x.png
+xbuild/emulator/HelloWorld.app/icon-50@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/HelloWorld.app/icon-50@2x.png105"[1mCpResource[0m HelloWorld/Resources/icons/icon-50@2x.png build/emulator/HelloWorld.app/icon-50@2x.pnge8dc895f3bfbb841^978d8a5f3bfbb841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon-50@2x.png00345454ddffdf42^1285"[1mCpResource[0m HelloWorld/Resources/icons/icon-50@2x.png build/emulator/HelloWorld.app/icon-50@2x.png    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon-50@2x.png /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app36"FD26D714-376E-4CEB-BAE7-1A19682F6C8E-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCpResource HelloWorld/Resources/icons/icon-60.png build/emulator/HelloWorld.app/icon-60.png
+s419117919.535734
+e419117919.537617
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-60.png
+xbuild/emulator/HelloWorld.app/icon-60.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/HelloWorld.app/icon-60.png99"[1mCpResource[0m HelloWorld/Resources/icons/icon-60.png build/emulator/HelloWorld.app/icon-60.png4567895f3bfbb841^baa1895f3bfbb841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon-60.png00345454ddffdf42^1276"[1mCpResource[0m HelloWorld/Resources/icons/icon-60.png build/emulator/HelloWorld.app/icon-60.png    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon-60.png /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app36"575EC8E2-44B5-4B9F-BC08-4AE19650687B-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCpResource HelloWorld/Resources/icons/icon-60@2x.png build/emulator/HelloWorld.app/icon-60@2x.png
+s419117919.522564
+e419117919.524515
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-60@2x.png
+xbuild/emulator/HelloWorld.app/icon-60@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/HelloWorld.app/icon-60@2x.png105"[1mCpResource[0m HelloWorld/Resources/icons/icon-60@2x.png build/emulator/HelloWorld.app/icon-60@2x.png33fe855f3bfbb841^af97865f3bfbb841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon-60@2x.png00345454ddffdf42^1285"[1mCpResource[0m HelloWorld/Resources/icons/icon-60@2x.png build/emulator/HelloWorld.app/icon-60@2x.png    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon-60@2x.png /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app36"877D3A4C-E2E0-4A11-98AE-6FF3D693AAD9-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCpResource HelloWorld/Resources/icons/icon-72.png build/emulator/HelloWorld.app/icon-72.png
+s419117919.517596
+e419117919.519678
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-72.png
+xbuild/emulator/HelloWorld.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/HelloWorld.app/icon-72.png99"[1mCpResource[0m HelloWorld/Resources/icons/icon-72.png build/emulator/HelloWorld.app/icon-72.pngfbb2845f3bfbb841^897a855f3bfbb841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon-72.png00345454ddffdf42^1276"[1mCpResource[0m HelloWorld/Resources/icons/icon-72.png build/emulator/HelloWorld.app/icon-72.png    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon-72.png /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app36"99BB9283-4EF8-49E5-934A-1A0F41064A93-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCpResource HelloWorld/Resources/icons/icon-72@2x.png build/emulator/HelloWorld.app/icon-72@2x.png
+s419117919.541754
+e419117919.544052
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-72@2x.png
+xbuild/emulator/HelloWorld.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/HelloWorld.app/icon-72@2x.png105"[1mCpResource[0m HelloWorld/Resources/icons/icon-72@2x.png build/emulator/HelloWorld.app/icon-72@2x.png16dd8a5f3bfbb841^c5578b5f3bfbb841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon-72@2x.png00345454ddffdf42^1285"[1mCpResource[0m HelloWorld/Resources/icons/icon-72@2x.png build/emulator/HelloWorld.app/icon-72@2x.png    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon-72@2x.png /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app36"4E066EBE-E04A-459A-A295-A9A3ED59B1D9-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCpResource HelloWorld/Resources/icons/icon-76.png build/emulator/HelloWorld.app/icon-76.png
+s419117919.517053
+e419117919.519426
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-76.png
+xbuild/emulator/HelloWorld.app/icon-76.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/HelloWorld.app/icon-76.png99"[1mCpResource[0m HelloWorld/Resources/icons/icon-76.png build/emulator/HelloWorld.app/icon-76.pngd788845f3bfbb841^6e18855f3bfbb841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon-76.png00345454ddffdf42^1276"[1mCpResource[0m HelloWorld/Resources/icons/icon-76.png build/emulator/HelloWorld.app/icon-76.png    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon-76.png /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app36"CE836468-F772-4079-9487-82F2ED792DB7-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCpResource HelloWorld/Resources/icons/icon-76@2x.png build/emulator/HelloWorld.app/icon-76@2x.png
+s419117919.540002
+e419117919.542059
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-76@2x.png
+xbuild/emulator/HelloWorld.app/icon-76@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/HelloWorld.app/icon-76@2x.png105"[1mCpResource[0m HelloWorld/Resources/icons/icon-76@2x.png build/emulator/HelloWorld.app/icon-76@2x.pnge0808a5f3bfbb841^c6c48a5f3bfbb841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon-76@2x.png00345454ddffdf42^1285"[1mCpResource[0m HelloWorld/Resources/icons/icon-76@2x.png build/emulator/HelloWorld.app/icon-76@2x.png    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon-76@2x.png /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app36"84575580-4BBD-42A3-95A2-C828BA14CFF5-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCpResource HelloWorld/Resources/icons/icon-small.png build/emulator/HelloWorld.app/icon-small.png
+s419117919.524806
+e419117919.528423
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-small.png
+xbuild/emulator/HelloWorld.app/icon-small.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/HelloWorld.app/icon-small.png105"[1mCpResource[0m HelloWorld/Resources/icons/icon-small.png build/emulator/HelloWorld.app/icon-small.png6614875f3bfbb841^4f91875f3bfbb841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon-small.png00345454ddffdf42^1285"[1mCpResource[0m HelloWorld/Resources/icons/icon-small.png build/emulator/HelloWorld.app/icon-small.png    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon-small.png /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app36"DBFD5A5B-1E60-44A2-B0E1-4EA53F33414A-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCpResource HelloWorld/Resources/icons/icon-small@2x.png build/emulator/HelloWorld.app/icon-small@2x.png
+s419117919.530929
+e419117919.532741
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-small@2x.png
+xbuild/emulator/HelloWorld.app/icon-small@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/emulator/HelloWorld.app/icon-small@2x.png111"[1mCpResource[0m HelloWorld/Resources/icons/icon-small@2x.png build/emulator/HelloWorld.app/icon-small@2x.pnga510885f3bfbb841^dc68885f3bfbb841^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon-small@2x.png00345454ddffdf42^1294"[1mCpResource[0m HelloWorld/Resources/icons/icon-small@2x.png build/emulator/HelloWorld.app/icon-small@2x.png    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon-small@2x.png /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app36"114DA8EE-1D4C-445D-958A-0E8CFCCF9057-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCpResource HelloWorld/Resources/icons/icon.png build/emulator/HelloWorld.app/icon.png
+s419117919.518397
+e419117919.520021
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon.png
+xbuild/emulator/HelloWorld.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/HelloWorld.app/icon.png93"[1mCpResource[0m HelloWorld/Resources/icons/icon.png build/emulator/HelloWorld.app/icon.png72dd845f3bfbb841^3faa855f3bfbb841^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon.png00345454ddffdf42^1267"[1mCpResource[0m HelloWorld/Resources/icons/icon.png build/emulator/HelloWorld.app/icon.png    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon.png /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app36"72EC8168-DAB4-40F7-A076-5DC9AA3C7DE4-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCpResource HelloWorld/Resources/icons/icon@2x.png build/emulator/HelloWorld.app/icon@2x.png
+s419117919.519601
+e419117919.521778
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon@2x.png
+xbuild/emulator/HelloWorld.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/HelloWorld.app/icon@2x.png99"[1mCpResource[0m HelloWorld/Resources/icons/icon@2x.png build/emulator/HelloWorld.app/icon@2x.pngc749855f3bfbb841^92e8855f3bfbb841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/icon@2x.png00345454ddffdf42^1276"[1mCpResource[0m HelloWorld/Resources/icons/icon@2x.png build/emulator/HelloWorld.app/icon@2x.png    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/icons/icon@2x.png /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app36"456B338A-D3FA-4FB1-98F2-7AEDCF7ADC6F-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCpResource HelloWorld/Resources/splash/Default-568h@2x~iphone.png build/emulator/HelloWorld.app/Default-568h@2x~iphone.png
+s419117919.536490
+e419117919.539725
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default-568h@2x~iphone.png
+xbuild/emulator/HelloWorld.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/emulator/HelloWorld.app/Default-568h@2x~iphone.png130"[1mCpResource[0m HelloWorld/Resources/splash/Default-568h@2x~iphone.png build/emulator/HelloWorld.app/Default-568h@2x~iphone.png917c895f3bfbb841^01898a5f3bfbb841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/Default-568h@2x~iphone.png00345454ddffdf42^1323"[1mCpResource[0m HelloWorld/Resources/splash/Default-568h@2x~iphone.png build/emulator/HelloWorld.app/Default-568h@2x~iphone.png    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/splash/Default-568h@2x~iphone.png /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app36"75ACA2B9-9CF3-4979-A8E8-A171413094DD-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCpResource HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png
+s419117919.526371
+e419117919.527977
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png136"[1mCpResource[0m HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.pngf3e4865f3bfbb841^dc80875f3bfbb841^---0#0#1#-19%DVTDocumentLocation2@133"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png00345454ddffdf42^1332"[1mCpResource[0m HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app36"32F54F1C-2242-4455-BAD4-522729A878ED-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCpResource HelloWorld/Resources/splash/Default-Landscape~ipad.png build/emulator/HelloWorld.app/Default-Landscape~ipad.png
+s419117919.529391
+e419117919.532955
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default-Landscape~ipad.png
+xbuild/emulator/HelloWorld.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/emulator/HelloWorld.app/Default-Landscape~ipad.png130"[1mCpResource[0m HelloWorld/Resources/splash/Default-Landscape~ipad.png build/emulator/HelloWorld.app/Default-Landscape~ipad.png47e8875f3bfbb841^cd73885f3bfbb841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/Default-Landscape~ipad.png00345454ddffdf42^1323"[1mCpResource[0m HelloWorld/Resources/splash/Default-Landscape~ipad.png build/emulator/HelloWorld.app/Default-Landscape~ipad.png    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/splash/Default-Landscape~ipad.png /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app36"2019AD7B-075F-4915-A999-6C3A59E534F2-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCpResource HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png
+s419117919.529416
+e419117919.532714
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png134"[1mCpResource[0m HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png63ed875f3bfbb841^2464885f3bfbb841^---0#0#1#-19%DVTDocumentLocation2@132"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png00345454ddffdf42^1329"[1mCpResource[0m HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app36"2896DA06-EBE3-4FBF-83EC-B16287CBD4FE-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCpResource HelloWorld/Resources/splash/Default-Portrait~ipad.png build/emulator/HelloWorld.app/Default-Portrait~ipad.png
+s419117919.533626
+e419117919.535413
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default-Portrait~ipad.png
+xbuild/emulator/HelloWorld.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/emulator/HelloWorld.app/Default-Portrait~ipad.png128"[1mCpResource[0m HelloWorld/Resources/splash/Default-Portrait~ipad.png build/emulator/HelloWorld.app/Default-Portrait~ipad.pngedd4885f3bfbb841^df15895f3bfbb841^---0#0#1#-19%DVTDocumentLocation2@129"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/Default-Portrait~ipad.png00345454ddffdf42^1320"[1mCpResource[0m HelloWorld/Resources/splash/Default-Portrait~ipad.png build/emulator/HelloWorld.app/Default-Portrait~ipad.png    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/splash/Default-Portrait~ipad.png /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app36"F7737CFF-983B-4597-84A5-81321FE429B9-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCpResource HelloWorld/Resources/splash/Default@2x~iphone.png build/emulator/HelloWorld.app/Default@2x~iphone.png
+s419117919.534296
+e419117919.535843
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default@2x~iphone.png
+xbuild/emulator/HelloWorld.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/emulator/HelloWorld.app/Default@2x~iphone.png120"[1mCpResource[0m HelloWorld/Resources/splash/Default@2x~iphone.png build/emulator/HelloWorld.app/Default@2x~iphone.png52f0885f3bfbb841^ef38895f3bfbb841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/Default@2x~iphone.png00345454ddffdf42^1308"[1mCpResource[0m HelloWorld/Resources/splash/Default@2x~iphone.png build/emulator/HelloWorld.app/Default@2x~iphone.png    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/splash/Default@2x~iphone.png /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app36"74FB029C-3672-4DE3-857D-914510FC4192-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CCpResource HelloWorld/Resources/splash/Default~iphone.png build/emulator/HelloWorld.app/Default~iphone.png
+s419117919.536274
+e419117919.539038
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default~iphone.png
+xbuild/emulator/HelloWorld.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/emulator/HelloWorld.app/Default~iphone.png114"[1mCpResource[0m HelloWorld/Resources/splash/Default~iphone.png build/emulator/HelloWorld.app/Default~iphone.png6074895f3bfbb841^cdea895f3bfbb841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/Default~iphone.png00345454ddffdf42^1299"[1mCpResource[0m HelloWorld/Resources/splash/Default~iphone.png build/emulator/HelloWorld.app/Default~iphone.png    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/Resources/splash/Default~iphone.png /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app36"BED110C6-C460-4062-819A-AAA02A753CA9-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CGenerateDSYMFile /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app.dSYM /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/HelloWorld
+s419117923.471805
+e419117923.554250
+r1
+xGenerateDSYMFile
+x/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app.dSYM
+x/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/HelloWorld
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Generate /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app.dSYM108"[1mGenerateDSYMFile[0m [1mbuild/emulator/HelloWorld.app.dSYM[0m build/emulator/HelloWorld.app/HelloWorld22e078633bfbb841^2ee48d633bfbb841^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app.dSYM00345454ddffdf42^1283"[1mGenerateDSYMFile[0m [1mbuild/emulator/HelloWorld.app.dSYM[0m build/emulator/HelloWorld.app/HelloWorld    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/HelloWorld -o /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app.dSYM36"3A0FA0BE-24BA-46A6-94D4-2F3FF13220DA-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CLd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/HelloWorld normal i386
+s419117923.296052
+e419117923.470805
+r1
+xLd
+x/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/HelloWorld
+xnormal
+xi386
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/HelloWorld.LinkFileList
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Link /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/HelloWorld63"[1mLd[0m build/emulator/HelloWorld.app/HelloWorld normal i38641f54b633bfbb841^338778633bfbb841^---0#0#1#--2441"[1mLd[0m build/emulator/HelloWorld.app/HelloWorld normal i386    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator -F/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator -filelist /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/HelloWorld.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework AssetsLibrary /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -Xlinker -dependency_info -Xlinker /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/HelloWorld_dependency_info.dat -o /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/HelloWorld36"93D57C9A-55AA-4B56-ADF8-9BC6F7CD1577-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CPhaseScriptExecution Copy\ www\ directory /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.sh
+s419117919.266666
+e419117919.516455
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.206s
+ouser	0m0.080s
+osys	0m0.122s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'146"[1mPhaseScriptExecution[0m Copy\ www\ directory build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.shb8e4445f3bfbb841^e562845f3bfbb841^-42"real	0m0.206suser	0m0.080ssys	0m0.122s3(21%IDEActivityLogMessage2@14"real	0m0.206s-419117919#1#14#-0#-----2@14"user	0m0.080s-419117919#15#14#-0#-----2@13"sys	0m0.122s-419117919#29#13#-0#-----0#0#1#--400"[1mPhaseScriptExecution[0m Copy\ www\ directory build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.sh    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    /bin/sh -c /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.sh36"AC527CAF-49B6-4411-A0FB-7AC1A250FB1B-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CProcessInfoPlistFile /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/Info.plist /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/HelloWorld-Info.plist
+s419117919.261407
+e419117919.265515
+r1
+xProcessInfoPlistFile
+x/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/Info.plist
+x/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/HelloWorld-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Process /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/HelloWorld-Info.plist110"[1mProcessInfoPlistFile[0m build/emulator/HelloWorld.app/Info.plist [1mHelloWorld/HelloWorld-Info.plist[0m2a1a435f3bfbb841^baf8435f3bfbb841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/HelloWorld-Info.plist0000000000000000^1391"[1mProcessInfoPlistFile[0m build/emulator/HelloWorld.app/Info.plist [1mHelloWorld/HelloWorld-Info.plist[0m    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    builtin-infoPlistUtility /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/HelloWorld-Info.plist -genpkginfo /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app/Info.plist36"D2F35CC9-2C77-42E9-81E5-979958047FA3-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CProcessPCH /var/folders/m2/ls2prw4j3qb7j6f4jmyj1rkr0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-csyjqtuqobhpevbqdjrfnqeybevj/HelloWorld-Prefix.pch.pch HelloWorld/HelloWorld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419117922.865855
+e419117923.208239
+r1
+xProcessPCH
+x/var/folders/m2/ls2prw4j3qb7j6f4jmyj1rkr0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-csyjqtuqobhpevbqdjrfnqeybevj/HelloWorld-Prefix.pch.pch
+xHelloWorld/HelloWorld-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/HelloWorld-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile HelloWorld/HelloWorld-Prefix.pch308"[1mProcessPCH[0m /var/folders/m2/ls2prw4j3qb7j6f4jmyj1rkr0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-csyjqtuqobhpevbqdjrfnqeybevj/HelloWorld-Prefix.pch.pch HelloWorld/HelloWorld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler86c8dd623bfbb841^375335633bfbb841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/HelloWorld-Prefix.pch0000000000000000^4602"[1mProcessPCH[0m /var/folders/m2/ls2prw4j3qb7j6f4jmyj1rkr0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-csyjqtuqobhpevbqdjrfnqeybevj/HelloWorld-Prefix.pch.pch HelloWorld/HelloWorld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=238 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/usr/local/lib/include -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/UninstalledProducts/include -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources/i386 -I/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources -F/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator --serialize-diagnostics /var/folders/m2/ls2prw4j3qb7j6f4jmyj1rkr0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-csyjqtuqobhpevbqdjrfnqeybevj/HelloWorld-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/m2/ls2prw4j3qb7j6f4jmyj1rkr0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-csyjqtuqobhpevbqdjrfnqeybevj/HelloWorld-Prefix.pch.d -c /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/HelloWorld/HelloWorld-Prefix.pch -o /var/folders/m2/ls2prw4j3qb7j6f4jmyj1rkr0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-csyjqtuqobhpevbqdjrfnqeybevj/HelloWorld-Prefix.pch.pch36"F4898BDF-DD2B-429F-804A-6F8EA40714EF-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
+CTouch /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app
+s419117923.556697
+e419117923.563529
+r1
+xTouch
+x/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Touch /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app43"[1mTouch[0m build/emulator/HelloWorld.appcba08e633bfbb841^564590633bfbb841^---0#0#1#--1024"[1mTouch[0m build/emulator/HelloWorld.app    cd /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jasonbucki/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jasonbucki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home/bin:/Users/jasonbucki/src/play-2.1.3:/Users/jasonbucki/src/play-2.1.3"    /usr/bin/touch -c /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/HelloWorld.app36"839DA3DD-EBC0-4FE2-90FE-DE7A151DCDCC-
+b48EDFAD4-81CF-419B-8673-6EB4AF527950
+
