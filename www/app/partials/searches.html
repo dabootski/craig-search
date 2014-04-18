@@ -2,7 +2,7 @@
   <li class="list-group-item new-search">
     New Search
   </li>
-  <li class="list-group-item" ng-repeat="search in searches" ng-touch="#/searches/{{search.id}}">
+  <li class="list-group-item" ng-repeat="search in searches" ng-click="showResults(search.id)">
     <span class="count">{{search.count}}</span>
     {{search.query}}
     <div class="location">{{search.location}}</div>

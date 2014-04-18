@@ -42,6 +42,12 @@ body {
   font-size: 2em; 
 }
 
+.list-group li {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .list-group li.new-search {
   text-align: center;
 }
@@ -53,4 +59,35 @@ body {
 
 .location {
   font-size: 0.5em;
+}
+
+.result .date {
+  font-size: 0.75em;
+}
+
+.result .title, .result .date, .result .price {
+  font-size: 0.5em;
+}
+
+.result .price {
+  float: right;
+}
+
+.result .date {
+  float: left;
+}
+
+.result .title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.clear {
+  clear: both;
+}
+
+.back {
+  font-size: 1.5em;
+  float: left;
 }
