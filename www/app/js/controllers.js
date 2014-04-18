@@ -3,9 +3,6 @@
 /* Controllers */
 
 angular.module('craigSearch.controllers', [])
-  .controller('HomeController', [function() {
-
-  }])
   .controller('SearchesController', ['$scope', 'SearchService',
     function($scope, SearchService) {
       $scope.searches = SearchService.savedSearches();

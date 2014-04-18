@@ -1,5 +1,10 @@
-<h2>My Searches</h2>
-<ul ng-repeat="search in searches">
-  <li><a ng-href="#/searches/{{search.id}}">{{search.name}} ({{search.queries | queriesDisplay}})</a></li>
+<ul class="list-group">
+  <li class="list-group-item new-search">
+    New Search
+  </li>
+  <li class="list-group-item" ng-repeat="search in searches" ng-touch="#/searches/{{search.id}}">
+    <span class="count">{{search.count}}</span>
+    {{search.query}}
+    <div class="location">{{search.location}}</div>
+  </li>
 </ul>
-

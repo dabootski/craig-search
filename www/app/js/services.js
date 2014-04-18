@@ -11,8 +11,10 @@ var craigSearchServices = angular.
 craigSearchServices.factory('SearchService', [
   function() {
     var searches = [
-      { id: 1, name: "M3", queries: ["m3"] },
-      { id: 2, name: "Ferrari", queries: ["ferrari", "ferari"]  }
+      { id: 1, query: "M3", location: "Minneapolis, MN", count: 10},
+      { id: 2, query: "M3", location: "Eau Claire, WI", count: 2},
+      { id: 3, query: "Ferrari", location: "Minneapolis, MN", count: 5},
+      { id: 4, query: "Lamborghini", location: "Minneapolis, MN", count: 8},
     ];
 
     return {
