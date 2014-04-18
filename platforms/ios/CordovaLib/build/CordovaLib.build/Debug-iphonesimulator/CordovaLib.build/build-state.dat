@@ -6,9 +6,9 @@ cCpHeader Classes/NSDictionary+Extensions.h /Users/jasonbucki/projects/work/angu
 cCpHeader Classes/CDVInvokedUrlCommand.h /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
 cCpHeader Classes/NSData+Base64.h /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
 cCpHeader Classes/CDVPluginResult.h /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-cCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-cCpHeader Classes/CDVDebug.h /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
 cCpHeader Classes/CDVPlugin.h /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+cCpHeader Classes/CDVDebug.h /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+cCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
 cCpHeader Classes/CDVWhitelist.h /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
 cCpHeader Classes/CDVURLProtocol.h /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
 cCpHeader Classes/CDVViewController.h /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
@@ -22,8 +22,8 @@ cCpHeader Classes/CDVCommandQueue.h /Users/jasonbucki/projects/work/angular/crai
 cCpHeader Classes/CDVCommandDelegateImpl.h /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
 cCpHeader Classes/CDVShared.h /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVShared.h
 cCpHeader Classes/CDVScreenOrientationDelegate.h /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
-cCpHeader Classes/CDVJSON.h /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
 cCpHeader Classes/CDVConfigParser.h /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+cCpHeader Classes/CDVJSON.h /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
 cCpHeader Classes/CDVWebViewDelegate.h /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
 cCpHeader Classes/CDVUserAgentUtil.h /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
 cCpHeader Classes/CDVTimer.h /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
@@ -381,108 +381,108 @@ t1397425118
 s9236
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDV.h
-t2
-s0
+t1397425117
+s1302
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
-t2
-s0
+t1397425117
+s3293
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
-t2
-s0
+t1397425117
+s2234
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
-t2
-s0
+t1397425117
+s1205
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
-t2
-s0
+t1397425117
+s1283
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
-t2
-s0
+t1397425117
+s1227
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
-t2
-s0
+t1397425117
+s1025
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
-t2
-s0
+t1397425117
+s2022
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
-t2
-s0
+t1397425117
+s986
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
-t2
-s0
+t1397425117
+s1743
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
-t2
-s0
+t1397425117
+s2194
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-t2
-s0
+t1397425117
+s3091
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
-t2
-s0
+t1397425117
+s1032
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVShared.h
-t2
-s0
+t1397425117
+s998
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
-t2
-s0
+t1397425117
+s909
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
-t2
-s0
+t1397425117
+s1052
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
-t2
-s0
+t1397425117
+s1057
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
-t2
-s0
+t1397425117
+s2764
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
-t2
-s0
+t1397425117
+s1442
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
-t2
-s0
+t1397425117
+s1204
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
-t2
-s0
+t1397425117
+s914
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
-t2
-s0
+t1397425117
+s893
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
-t2
-s0
+t1397425117
+s1498
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-t2
-s0
+t1397425117
+s928
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
-t2
-s0
+t1397425117
+s1142
 
 N/Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/build/emulator/libCordova.a
-t2
-s0
+t1397425119
+s863728
 
 N/var/folders/m2/ls2prw4j3qb7j6f4jmyj1rkr0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bfbcceaojgdkzjgjfloqnwqavick/CordovaLib_Prefix.pch.pch
 t1397425118
@@ -490,7 +490,7 @@ s3239416
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa3746d5d3bfbb841^64ad8d5d3bfbb841^---0#1#1#--18"Check dependencies36"85B193EF-0671-4047-A6F1-0AB5D41A05C3-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesdc9edc7b24fcb841^855cfd7b24fcb841^---0#1#1#--18"Check dependencies36"B40C122A-1C98-43DD-9263-C2D0EA7985F4-
 
 CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/jasonbucki/projects/work/angular/craig-search/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s419117918.725901

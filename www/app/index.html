@@ -3,15 +3,57 @@
 <head>
   <meta charset="utf-8">
   <title>My AngularJS App</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
   <link rel="stylesheet" href="css/app.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
 </head>
 <body>
-  <ul class="menu">
-    <li><a href="#/home">Home</a></li>
-    <li><a href="#/searches">My Searches</a></li>
-  </ul>
+  <div class="container">
+    <div class="row">
+        <ul class="list-group">
+          <li class="list-group-item new-search">
+            New Search
+          </li>
+          <li class="list-group-item">
+            <span class="count">10</span>
+            911
+            <div class="location">Minneapolis, MN</div>
+          </li>
+          <li class="list-group-item">
+            <span class="count">3</span>
+            Cayman
+            <div class="location">Minneapolis, MN</div>
+          </li>
+          <li class="list-group-item">
+            <span class="count">2</span>
+            Ferrari, Ferari
+            <div class="location">Minneapolis, MN</div>
+          </li>
+          <li class="list-group-item">
+            <span class="count">1</span>
+            Lamborghini
+            <div class="location">Minneapolis, MN</div>
+          </li>
+          <li class="list-group-item">
+            <span class="count">1</span>
+            Lotus
+            <div class="location">Minneapolis, MN</div>
+          </li>
+          <li class="list-group-item">
+            <span class="count">12</span>
+            M3
+            <div class="location">Minneapolis, MN</div>
+          </li>
+          <li class="list-group-item">
+            <span class="count">8</span>
+            M3
+            <div class="location">Eau Claire, WI</div>
+          </li>
+        </ul>
 
-  <div ng-view></div>
+      <!--<div ng-view></div>-->
+    </div>
+  </div>
 
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>

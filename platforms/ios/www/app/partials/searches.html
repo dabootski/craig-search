@@ -1,0 +1,5 @@
+<h2>My Searches</h2>
+<ul ng-repeat="search in searches">
+  <li><a ng-href="#/searches/{{search.id}}">{{search.name}} ({{search.queries | queriesDisplay}})</a></li>
+</ul>
+
