@@ -39,7 +39,7 @@ body {
 }
 
 .list-group {
-  font-size: 2em; 
+  font-size: 1.5em; 
 }
 
 .list-group li {
@@ -50,6 +50,23 @@ body {
 
 .list-group li.new-search {
   text-align: center;
+}
+
+.app-header {
+  float: left;
+  font-size: 1.5em;
+}
+
+.cancel-search {
+  float: left;
+  color: red;
+  font-size: 1.5em;
+}
+
+.add-search {
+  float: right;
+  color: green;
+  font-size: 1.5em;
 }
 
 .count {
@@ -90,4 +107,8 @@ body {
 .back {
   font-size: 1.5em;
   float: left;
+}
+
+.new-search input {
+  width: 70%;
 }

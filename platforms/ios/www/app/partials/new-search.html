@@ -1,10 +1,6 @@
 <ul class="list-group">
   <li class="list-group-item new-search">
     <span class="back" ng-click="back()">&lt;</span>
-    <div>
-      {{search.query}}
-      <div class="location">{{search.location}}</div>
-    </div>
   </li>
   <li class="list-group-item result" ng-repeat="result in results" ng-click="showResult(search.id, result.id)">
     <span class="price">{{result.price}}</span>

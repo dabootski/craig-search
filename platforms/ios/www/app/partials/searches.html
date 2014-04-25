@@ -1,5 +1,19 @@
-<h2>My Searches</h2>
-<ul ng-repeat="search in searches">
-  <li><a ng-href="#/searches/{{search.id}}">{{search.name}} ({{search.queries | queriesDisplay}})</a></li>
-</ul>
+<ul class="list-group">
+  <li class="list-group-item new-search" ng-show="!addModeActivated">
+    <div class="app-header">CraigSearch</div>
+    <div class="add-search" ng-click="showNewSearch()">+</div>
+  </li>
 
+  <li class="list-group-item new-search" ng-show="addModeActivated">
+    <div class="cancel-search" ng-click="cancelNewSearch()">-</div>
+    <div class="add-search" ng-click="addNewSearch()">+</div>
+    <form ng-submit="addNewSearch()">
+      <input type="text" ng-model="newSearchQuery" id="new-search">
+    </form>
+  </li>
+  <li class="list-group-item" ng-repeat="search in searches track by $index" ng-click="showResults(search.id)">
+    <span class="count">{{search.unreadCount}}</span>
+    {{search.query}}
+    <div class="location">{{search.location}}</div>
+  </li>
+</ul>

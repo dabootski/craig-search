@@ -1,5 +1,9 @@
 /* app css stylesheet */
 
+body {
+  background-color: #fff;
+}
+
 .menu {
   list-style: none;
   border-bottom: 0.1em solid black;
@@ -27,4 +31,84 @@
 .menu > li:nth-child(1):before {
   content: "";
   padding: 0;
+}
+
+.panel-body {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.list-group {
+  font-size: 1.5em; 
+}
+
+.list-group li {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.list-group li.new-search {
+  text-align: center;
+}
+
+.app-header {
+  float: left;
+  font-size: 1.5em;
+}
+
+.cancel-search {
+  float: left;
+  color: red;
+  font-size: 1.5em;
+}
+
+.add-search {
+  float: right;
+  color: green;
+  font-size: 1.5em;
+}
+
+.count {
+  float: right;
+  color: red;
+}
+
+.location {
+  font-size: 0.5em;
+}
+
+.result .date {
+  font-size: 0.75em;
+}
+
+.result .title, .result .date, .result .price {
+  font-size: 0.5em;
+}
+
+.result .price {
+  float: right;
+}
+
+.result .date {
+  float: left;
+}
+
+.result .title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.clear {
+  clear: both;
+}
+
+.back {
+  font-size: 1.5em;
+  float: left;
+}
+
+.new-search input {
+  width: 70%;
 }
