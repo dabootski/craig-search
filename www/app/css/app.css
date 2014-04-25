@@ -111,4 +111,18 @@ body {
 
 .new-search input {
   width: 70%;
+  text-transform: lowercase;
 }
+
+.new-search i {
+  font-size: 0.75em;
+}
+
+.new-search i.invalid {
+  opacity: 0.15;
+}
+
+.new-search i.valid {
+  opacity: 0.65;
+}
+

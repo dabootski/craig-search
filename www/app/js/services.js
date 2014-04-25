@@ -10,57 +10,85 @@ var craigSearchServices = angular.
 
 craigSearchServices.factory('SearchService', [
   function() {
-    var serializedSearch = '[' +
-      '{ "id": 1, "query": "M3", "location": "Minneapolis, MN", "unreadCount": 10},' +
-      '{ "id": 2, "query": "M3", "location": "Eau Claire, WI", "unreadCount": 2},' +
-      '{ "id": 3, "query": "Ferrari", "location": "Minneapolis, MN", "unreadCount": 5},' +
-      '{ "id": 4, "query": "Lamborghini", "location": "Minneapolis, MN", "unreadCount": 8}' +
-    ']';
     var storage = window.localStorage;
-    if(!storage.getItem("SearchService-data")) {
-      console.log("INITIALIZING SearchService DATA!!!");
-      storage.setItem("SearchService-data", serializedSearch);
-    }
-
-    console.log(storage.getItem("SearchService-data"));
-    //var searches = [];
-    var searches = JSON.parse(storage.getItem("SearchService-data"));
+    var searches = null;
 
     return {
       //
       // Public Methods
       //
       savedSearches: function() {
+        if(!searches) {
+          searches = this._fetchSearches();
+        }
+
         return searches;
       },
       find: function(searchId) {
         var found = null;
-        angular.forEach(searches, function(search) {
+        angular.forEach(this._fetchSearches(), function(search) {
           if(search.id == searchId) {
             found = search;
           }
         });
         return found;
       },
-      nextId: 5,
       addSearch: function(query) {
-        console.log("ADDING NEW SEARCH: " + query);
-        searches.push({
-          id: this.nextId,
-          query: query,
+        this._createSearch({
+          id: this._generateId(),
+          query: this._cleanseQuery(query),
           location: "Minneapolis, MN",
           unreadCount: 0,
           results: []
         });
-        this._syncSearches();
-        this.nextId += 1;
+      },
+      isValidQuery: function(query) {
+        if(!query || query.trim() === "") { return false; }
+
+        var cleansedQuery = this._cleanseQuery(query);
+        var duplicateQuery = false;
+        angular.forEach(searches, function(search) {
+          if(search.query === cleansedQuery) {
+            duplicateQuery = true;
+          }
+        });
+
+        return !duplicateQuery;
       },
       //
       // Private Methods
       //
-      _syncSearches: function() {
-        console.log("SYNCHING SEARCHES");
+      _createSearch: function(search) {
+        searches.push(search);
         storage.setItem("SearchService-data", JSON.stringify(searches));
+      },
+      _fetchSearches: function() {
+        if(!storage.getItem("SearchService-data")) {
+          this._loadDefaultSearches();
+        }
+        return JSON.parse(storage.getItem("SearchService-data"));
+      },
+      _generateId: function() {
+        // Yanked from http://jsfiddle.net/briguy37/2MVFd/
+        var d = new Date().getTime();
+        var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+          var r = (d + Math.random()*16)%16 | 0;
+          d = Math.floor(d/16);
+          return (c=='x' ? r : (r&0x7|0x8)).toString(16);
+        });
+        return uuid;
+      },
+      _loadDefaultSearches: function() {
+        var serializedSearch = '[' +
+          '{ "id": "' + this._generateId() + '", "query": "M3", "location": "Minneapolis, MN", "unreadCount": 10},' +
+          '{ "id": "' + this._generateId() + '", "query": "M3", "location": "Eau Claire, WI", "unreadCount": 2},' +
+          '{ "id": "' + this._generateId() + '", "query": "Ferrari", "location": "Minneapolis, MN", "unreadCount": 5},' +
+          '{ "id": "' + this._generateId() + '", "query": "Lamborghini", "location": "Minneapolis, MN", "unreadCount": 8}' +
+        ']';
+        storage.setItem("SearchService-data", serializedSearch);
+      },
+      _cleanseQuery: function(query) {
+        return query.replace(/ +(?= )/g,'').toLowerCase();
       }
     };
   }
