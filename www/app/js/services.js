@@ -80,10 +80,9 @@ craigSearchServices.factory('SearchService', [
       },
       _loadDefaultSearches: function() {
         var serializedSearch = '[' +
-          '{ "id": "' + this._generateId() + '", "query": "M3", "location": "Minneapolis, MN", "unreadCount": 10},' +
-          '{ "id": "' + this._generateId() + '", "query": "M3", "location": "Eau Claire, WI", "unreadCount": 2},' +
-          '{ "id": "' + this._generateId() + '", "query": "Ferrari", "location": "Minneapolis, MN", "unreadCount": 5},' +
-          '{ "id": "' + this._generateId() + '", "query": "Lamborghini", "location": "Minneapolis, MN", "unreadCount": 8}' +
+          '{ "id": "' + this._generateId() + '", "query": "m3", "location": "Minneapolis, MN", "unreadCount": 10},' +
+          '{ "id": "' + this._generateId() + '", "query": "ferrari", "location": "Minneapolis, MN", "unreadCount": 5},' +
+          '{ "id": "' + this._generateId() + '", "query": "lamborghini", "location": "Minneapolis, MN", "unreadCount": 8}' +
         ']';
         storage.setItem("SearchService-data", serializedSearch);
       },

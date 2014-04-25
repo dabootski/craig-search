@@ -1,6 +1,6 @@
-<ul class="list-group">
+<ul class="list-group" ng-swipe-right="navigateBack()">
   <li class="list-group-item new-search">
-    <span class="back" ng-click="back()">&lt;</span>
+  <span class="back" ng-click="navigateBack()"><i class="icon-arrow-left"></i></span>
     <div>
       {{search.query}}
       <div class="location">{{search.location}}</div>

@@ -3,6 +3,10 @@
 /* Controllers */
 
 angular.module('craigSearch.controllers', [])
+
+  //
+  // SearchesController
+  //
   .controller('SearchesController', ['$scope', '$location', 'SearchService',
     function($scope, $location, SearchService) {
       $scope.searches = SearchService.savedSearches();
@@ -16,15 +20,29 @@ angular.module('craigSearch.controllers', [])
         $scope.addModeActivated = false;
       }
       $scope.addNewSearch = function() {
-        $scope.addModeActivated = false;
-        SearchService.addSearch($scope.newSearchQuery);
-        // Force keyboard to hide by blurring input
-        document.getElementById("new-search").blur();
+        if(SearchService.isValidQuery($scope.newSearchQuery)) {
+          $scope.addModeActivated = false;
+          SearchService.addSearch($scope.newSearchQuery);
+          $scope.newSearchQuery = "";
+          // Force keyboard to hide by blurring input
+          document.getElementById("new-search").blur();
+        }
       }
       $scope.addModeActivated = false;
       $scope.newSearchQuery = "";
+      $scope.newSearchStatus = function() {
+        if(SearchService.isValidQuery($scope.newSearchQuery)) {
+          return "valid";
+        } else {
+          return "invalid";
+        }
+      }
     }
   ])
+
+  //
+  // SearchResultsController
+  //
   .controller('SearchResultsController', ['$scope', '$location', '$routeParams', 'SearchService', 'SearchResultsService',
     function($scope, $location, $routeParams, SearchService, SearchResultsService) {
       $scope.search = SearchService.find($routeParams.searchId);
@@ -37,6 +55,10 @@ angular.module('craigSearch.controllers', [])
       }
     }
   ])
+
+  //
+  // SearchResultDetailController
+  //
   .controller('SearchResultDetailController', ['$scope', '$location', '$routeParams', 'SearchService', 'SearchResultsService',
     function($scope, $location, $routeParams, SearchService, SearchResultsService) {
       $scope.result = SearchResultsService.find($routeParams.resultId);
@@ -45,6 +67,10 @@ angular.module('craigSearch.controllers', [])
       }
     }
   ])
+
+  //
+  // NewSearchController
+  //
   .controller('NewSearchController', ['$scope', '$location', 'SearchService',
     function($scope, $location, SearchService) {
       //$scope.result = SearchResultsService.find($routeParams.resultId);

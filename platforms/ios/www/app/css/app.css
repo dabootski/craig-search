@@ -49,6 +49,7 @@ body {
 }
 
 .list-group li.new-search {
+  padding-top: 1em;
   text-align: center;
 }
 
@@ -111,4 +112,18 @@ body {
 
 .new-search input {
   width: 70%;
+  text-transform: lowercase;
 }
+
+.new-search i {
+  font-size: 1.25em;
+}
+
+.new-search i.invalid {
+  opacity: 0.15;
+}
+
+.new-search i.valid {
+  opacity: 0.65;
+}
+

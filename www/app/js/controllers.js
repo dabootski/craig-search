@@ -50,7 +50,7 @@ angular.module('craigSearch.controllers', [])
       $scope.showResult = function(searchId, resultId) {
         $location.path("/searches/" + searchId + "/results/" + resultId);
       }
-      $scope.back = function() {
+      $scope.navigateBack = function() {
         $location.path("/searches");
       }
     }
