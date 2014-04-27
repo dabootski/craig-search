@@ -1,16 +1,17 @@
-<ul class="list-group">
+<ul class="list-group" ng-swipe-right="navigateBack()">
   <li class="list-group-item new-search">
-    <span class="back" ng-click="back()">&lt;</span>
+  <span class="back" ng-click="navigateBack()"><i class="icon-arrow-left"></i></span>
     <div>
       {{search.query}}
       <div class="location">{{search.location}}</div>
     </div>
   </li>
-  <li class="list-group-item result" ng-repeat="result in results" ng-click="showResult(search.id, result.id)">
-    <span class="price">{{result.price}}</span>
-    <span class="date">{{result.date}}</span>
-    <div class="clear"></div>
-    <div class="title">{{result.title}}</div>
+  <li class="list-group-item result"
+    ng-repeat="result in results"
+    ng-click="showResult(search.query, result.id)">
+    <div>{{result.title}}</div>
+    <div class="price">{{result.price}}</div>
+    <div class="title">{{result.postedAt() | date:'MM/dd'}}</div>
   </li>
 </ul>
 

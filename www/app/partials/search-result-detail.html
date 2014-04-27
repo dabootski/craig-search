@@ -1,14 +1,14 @@
 <ul class="list-group">
   <li class="list-group-item new-search">
-    <span class="back" ng-click="back()">&lt;</span>
+    <span class="back" ng-click="navigateBack()"><i class="icon-arrow-left"></i></span>
     <div>
-      {{result.date}} -
+      {{result.postedAt() | date:'MM/dd'}} -
       {{result.price}}
       <div class="location">{{result.title}}</div>
     </div>
   </li>
   <li class="list-group-item">
-    This is the description...
+    <div class="description" ng-bind-html="result.description | unsafe">
   </li>
 </ul>
 

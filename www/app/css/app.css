@@ -60,7 +60,6 @@ body {
 }
 
 .app-header {
-  float: left;
   font-size: 1.5em;
 }
 
@@ -68,6 +67,12 @@ body {
   float: left;
   color: red;
   font-size: 1.5em;
+}
+
+.configure {
+  float: left;
+  color: red;
+  font-size: 1.0em;
 }
 
 .add-search {
@@ -97,6 +102,10 @@ body {
   float: right;
 }
 
+.result .price {
+  float: right;
+}
+
 .result .date {
   float: left;
 }
@@ -105,6 +114,11 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.description {
+  font-size: 0.75em;
+  white-space: normal;
 }
 
 .clear {
@@ -121,6 +135,10 @@ body {
   text-transform: lowercase;
 }
 
+.new-search input.invalid {
+  color: red;
+}
+
 .new-search i {
   font-size: 1.25em;
 }
@@ -129,7 +147,7 @@ body {
   opacity: 0.15;
 }
 
-.new-search i.valid {
-  opacity: 0.65;
+.cancel-search i, .new-search i.valid {
+  opacity: 0.85;
 }
 

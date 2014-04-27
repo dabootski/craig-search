@@ -10,11 +10,12 @@ angular.module('craigSearch.controllers', [])
   .controller('SearchesController', ['$scope', '$location', 'SearchService',
     function($scope, $location, SearchService) {
       $scope.searches = SearchService.savedSearches();
-      $scope.showResults = function(searchId) {
-        $location.path("/searches/" + searchId + "/results");
+      $scope.showResults = function(query) {
+        $location.path("/searches/" + query + "/results");
       }
       $scope.showNewSearch = function() {
         $scope.addModeActivated = true;
+        document.getElementById("new-search").click();
       }
       $scope.cancelNewSearch = function() {
         $scope.addModeActivated = false;
@@ -22,10 +23,11 @@ angular.module('craigSearch.controllers', [])
       $scope.addNewSearch = function() {
         if(SearchService.isValidQuery($scope.newSearchQuery)) {
           $scope.addModeActivated = false;
-          SearchService.addSearch($scope.newSearchQuery);
+          var search = SearchService.addSearch($scope.newSearchQuery);
           $scope.newSearchQuery = "";
           // Force keyboard to hide by blurring input
           document.getElementById("new-search").blur();
+          $location.path("/searches/" + search.id + "/results");
         }
       }
       $scope.addModeActivated = false;
@@ -43,14 +45,22 @@ angular.module('craigSearch.controllers', [])
   //
   // SearchResultsController
   //
-  .controller('SearchResultsController', ['$scope', '$location', '$routeParams', 'SearchService', 'SearchResultsService',
-    function($scope, $location, $routeParams, SearchService, SearchResultsService) {
-      $scope.search = SearchService.find($routeParams.searchId);
-      $scope.results = SearchResultsService.results($routeParams.searchId);;
-      $scope.showResult = function(searchId, resultId) {
-        $location.path("/searches/" + searchId + "/results/" + resultId);
+  .controller('SearchResultsController', ['$scope', '$location', '$routeParams', '$anchorScroll', 'SearchService', 'SearchResultsService',
+    function($scope, $location, $routeParams, $anchorScroll, SearchService, SearchResultsService) {
+      // Force page to scroll to top
+      $location.hash('main');
+      $anchorScroll();
+
+      $scope.search = SearchService.find($routeParams.query);
+      SearchResultsService.
+        results($routeParams.query)
+        .then(function(results) {
+          $scope.results = results;
+        });
+      $scope.showResult = function(query, resultId) {
+        $location.path("/searches/" + query + "/results/" + resultId);
       }
-      $scope.back = function() {
+      $scope.navigateBack = function() {
         $location.path("/searches");
       }
     }
@@ -59,11 +69,21 @@ angular.module('craigSearch.controllers', [])
   //
   // SearchResultDetailController
   //
-  .controller('SearchResultDetailController', ['$scope', '$location', '$routeParams', 'SearchService', 'SearchResultsService',
+  .controller('SearchResultDetailController',
+    ['$scope', '$location', '$routeParams', 'SearchService', 'SearchResultsService',
     function($scope, $location, $routeParams, SearchService, SearchResultsService) {
-      $scope.result = SearchResultsService.find($routeParams.resultId);
-      $scope.back = function() {
-        $location.path("/searches/" + $routeParams.searchId + "/results");
+      console.log($routeParams.query);
+
+      SearchResultsService.
+        find($routeParams.query, $routeParams.resultId).
+        then(function(result) {
+          console.log("GOT RESULT:");
+          console.log(result);
+          $scope.result = result;
+        });
+
+      $scope.navigateBack = function() {
+        $location.path("/searches/" + $routeParams.query + "/results");
       }
     }
   ])

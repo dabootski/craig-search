@@ -12,5 +12,10 @@ angular.module('craigSearch.filters', []).
     return function(queries) {
       return queries.join(", ");
     };
+  }]).
+  filter('unsafe', ['$sce', function($sce) {
+    return function(val) {
+      return $sce.trustAsHtml(val);
+    };
   }]);
 

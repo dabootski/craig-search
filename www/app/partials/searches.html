@@ -1,17 +1,20 @@
 <ul class="list-group">
   <li class="list-group-item new-search" ng-show="!addModeActivated">
-    <div class="app-header">CraigSearch</div>
+    <div class="configure" ng-click="showEditMode()"><i class=""></i></div>
     <div class="add-search" ng-click="showNewSearch()"><i class="icon-plus"></i></div>
+    <div class="app-header">CraigSearch</div>
   </li>
 
   <li class="list-group-item new-search" ng-show="addModeActivated">
   <div class="cancel-search" ng-click="cancelNewSearch()"><i class="icon-cross"></i></div>
   <div class="add-search" ng-click="addNewSearch()"><i class="icon-checkmark {{newSearchStatus()}}"></i></div>
     <form ng-submit="addNewSearch()">
-      <input type="text" ng-model="newSearchQuery" id="new-search">
+      <input type="text" ng-model="newSearchQuery" id="new-search" class="{{newSearchStatus()}}">
     </form>
   </li>
-  <li class="list-group-item" ng-repeat="search in searches track by $index" ng-click="showResults(search.id)">
+  <li class="list-group-item"
+    ng-repeat="search in searches | orderBy : 'query' track by $index"
+    ng-click="showResults(search.query)">
     <span class="count">{{search.unreadCount}}</span>
     {{search.query}}
     <div class="location">{{search.location}}</div>
